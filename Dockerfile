@@ -7,7 +7,7 @@ RUN apt-get update \
 
 
 # Stage 2 — официальный n8n (distroless)
-FROM docker.n8n.io/n8nio/n8n:latest
+FROM n8nio/n8n:latest
 
 USER root
 
